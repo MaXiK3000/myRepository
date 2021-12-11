@@ -1,0 +1,34 @@
+{
+  "archieve": [
+    {
+      "id": 1,
+      "startDate": 1639256400000,
+      "endDate": 1640206800000,
+      "pateintId": 134,
+      "doctorId": 432,
+      "status": "NOT_STARTED",
+      "diagnosis": "Shiza",
+      "medicalPurpose": {
+        "type": "MedicalOperation",
+        "id": 1,
+        "title": "lal as lalsdl alsdlasld lasld lasdl asld lsa",
+        "descrption": "asd asd asd asd \n asda sdasd as n\n"
+      }
+    },
+    {
+      "id": 2,
+      "startDate": 1639256400000,
+      "endDate": 1640206800000,
+      "pateintId": 134,
+      "doctorId": 432,
+      "status": "NOT_STARTED",
+      "diagnosis": "Shiza",
+      "medicalPurpose": {
+        "type": "MedicalOperation",
+        "id": 1,
+        "title": "lal as lalsdl alsdlasld lasld lasdl asld lsa",
+        "descrption": "asd asd asd asd \n asda sdasd as n\n"
+      }
+    }
+  ]
+}
