@@ -7,6 +7,6 @@ public class MedicalOperation extends MedicalPurpose{
 
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() + " " + this.id + " " + this.title + " " + this.description;
+        return this.getClass().getSimpleName() + " " + this.getId() + " " + this.getTitle() + " " + this.getDescription();
     }
 }

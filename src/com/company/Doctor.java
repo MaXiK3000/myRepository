@@ -1,10 +1,10 @@
 package com.company;
 
 public class Doctor {
-    int id;
-    String firstName;
-    String lastName;
-    DoctorRole role;
+    private int id;
+    private String firstName;
+    private String lastName;
+    private DoctorRole role;
 
     public Doctor(int id, String firstName, String lastName, DoctorRole role) {
         this.id = id;
@@ -21,12 +21,18 @@ public class Doctor {
         patient.id = patient.getId();
     }
 
-    public void setMedicalPurpose(MedicalPurpose medicalPurpose) {
-        switch (medicalPurpose) {
-            case (new MedicalMedicine(medicalPurpose.id, medicalPurpose.title, medicalPurpose.description)) :
+//    public MedicalPurpose getMedicalPurpose(MedicalPurpose medicalPurpose) {
+//        if (medicalPurpose.equals(new MedicalMedicine(medicalPurpose.id, medicalPurpose.title, medicalPurpose.description))) {
+//            return new MedicalMedicine(medicalPurpose.id, medicalPurpose.title, medicalPurpose.description);
+//        } else if (medicalPurpose.equals(new MedicalProcedure(medicalPurpose.id, medicalPurpose.title, medicalPurpose.description))) {
+//            return new MedicalProcedure(medicalPurpose.id, medicalPurpose.title, medicalPurpose.description);
+//        } else if (medicalPurpose.equals(new MedicalOperation(medicalPurpose.id, medicalPurpose.title, medicalPurpose.description))) {
+//            return new MedicalOperation(medicalPurpose.id, medicalPurpose.title, medicalPurpose.description);
+//        }
+//        return medicalPurpose;
+//    }
 
-        }
-    }
+
 
     public void setPatientFirstName(Patient patient) {
         patient.firstName = patient.getFirstName();
@@ -53,19 +59,19 @@ public class Doctor {
     }
 
     public int getId() {
-        return id;
+        return this.id;
     }
 
     public String getFirstName() {
-        return firstName;
+        return this.firstName;
     }
 
     public String getLastName() {
-        return lastName;
+        return this.lastName;
     }
 
     public DoctorRole getRole() {
-        return role;
+        return this.role;
     }
 
     public void setRole(DoctorRole role) {

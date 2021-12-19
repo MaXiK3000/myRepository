@@ -96,6 +96,10 @@ public class SickLeave {
         this.doctorId = doctorId;
     }
 
+    public void setStatus(SickLeaveStatus status) {
+        this.status = status;
+    }
+
     private SickLeaveStatus mapDateToStatus(Date startDate, Date endDate) {
         Date now = new Date();
 
